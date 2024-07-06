@@ -63,6 +63,7 @@ label{
 @media (max-width: 768px) {
     nav ul li {
         justify-content: space-between;
+        padding:10px;
         margin: 0.5rem 0;
         font-size: 13px;
     }
@@ -77,12 +78,16 @@ label{
         padding: 5px;
         margin: 5px;
     }
+    #name, #email{
+    padding: 0;
+    }
 }
 
 @media (max-width: 480px) {
     nav ul li {
         justify-content: space-between;
         margin: 0.5rem 0;
+        padding:10px;
         font-size: 12px;
     }
     header {
@@ -92,5 +97,8 @@ label{
     button {
         padding: 0.4rem 0.8rem;
         margin: 5px;
+    }
+     #name, #email{
+    padding: 0;
     }
 }
