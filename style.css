@@ -1,0 +1,98 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+header {
+    background-color: #1f1e1e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: #0265cf;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0054ad;
+}
+
+#name, #email{
+    padding: 3px;
+}
+
+label{
+    padding: 3px;
+    margin: 3px;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0.5rem 0;
+        font-size: 13px;
+    }
+
+    main {
+        padding: 1rem;
+    }
+    button{
+        margin: 10px;
+    }
+    label{
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0.5rem 0;
+        font-size: 12px;
+    }
+    header {
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 0.4rem 0.8rem;
+        margin: 5px;
+    }
+}
